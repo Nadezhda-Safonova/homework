@@ -15,7 +15,8 @@ int main()
 		    if (b % 2 == 0) 
 		       {
 			        cout << "Even ";
-		        } else 
+		        } 
+			else 
 		            {
 			            cout << "Odd ";
 		            }

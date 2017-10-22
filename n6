@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+ 
+int main() 
+{
+	int a;
+	int b = 1;
+	cin >> a;
+	if (a == 0) 
+		{
+			cout << 0;
+			return 0;
+		}
+	int s = a;
+	while (cin >> a && a) 
+		{
+			s += a;
+			++b;
+		}
+	b++;
+	cout << (float) s / b;
+ 
+	return 0;
+}
